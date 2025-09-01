@@ -11,7 +11,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        // You can bind classes or services into the service container here
+        // Example: $this->app->bind(SomeInterface::class, SomeImplementation::class);
     }
 
     /**
@@ -19,6 +20,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        // Code to run after all services are registered
+        // Example: view composers, custom validation rules, etc.
     }
 }
